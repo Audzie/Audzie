@@ -236,7 +236,7 @@ Swal.fire({
   }
 }).then((result) => {
       if (result.isConfirmed) {
-        window.location.href = 'index.html'; // Ganti dengan halaman login kamu
+        window.location.href = 'index.html';
       }
     });
   }
@@ -262,13 +262,12 @@ Swal.fire({
       return;
     }
 
-    // Kalau validasi lolos, tampilkan popup sukses
     showRegisterSuccess();
   });
 
-  // Contoh fungsi klik tombol login (bisa kamu ganti sesuai kebutuhan)
+
   loginBtn.addEventListener('click', () => {
-    // Arahkan ke halaman login misalnya
+
     window.location.href = 'index.html'; 
   });
 </script>
